@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 20px;
+    box-shadow: 0px 0px 20px 4px black;
+    background-color: green;
+    border-radius: 9px;
+    max-width: 450px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.title{
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 11px;
+    display: flex;
+}
+
+h1{
+    color: black;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+#celsius{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+
+#farenheit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+
+
+
+#kelvin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+input{
+    padding: 0px 10px;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    outline: none;
+    text-align: center;
+    flex: 6;
+    font-weight: 650;
+    font-size: 22px;
+    height: 65px;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+icon{
+    border-radius: 0px 10px 10px 0px;
+    color: white;
+    background: orange;
+    font-size: 32px;
+    text-align: center;
+    line-height: 65px;
+    height: 65px;
+    flex: 1;
+}
+
+.button{
+    margin-top: 25px;
+    text-align: center;
+}
+
+
+.button button{
+    border: none;
+    transition: 0.4s;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 22px;
+    padding: 10px 30px;
+    outline: none;
+}
+
+.button button:hover{
+    background: black;
+    color: white;
+}
+.bot{
+    color: black;
+}
